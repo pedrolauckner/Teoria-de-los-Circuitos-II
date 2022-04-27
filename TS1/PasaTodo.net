@@ -1,0 +1,11 @@
+* D:\DocumentosD\UTN\4_Cuarto Año\Teoria de los Circuitos II\TS1\PasaTodo.asc
+V1 Vi 0 AC 1
+R1 N001 Vi 1k
+C1 vx Vi 1
+R2 vo N001 1k
+R3 0 vx 1
+XU1 N001 vx vo opamp Aol=100K GBW=10Meg
+.ac dec 10 0.1 1000k
+.inc opamp.sub
+.backanno
+.end
